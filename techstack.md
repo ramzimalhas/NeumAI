@@ -4,11 +4,11 @@
 ramzimalhas/NeumAI is built on the following main stack:
 
 - [Python](https://www.python.org) – Languages
-- [Replicate](https://replicate.com/) – Machine Learning as a Service
 - [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
-- [Pinecone](https://www.pinecone.io/) – Search as a Service
-- [OpenAI](https://openai.com/) – Large Language Models
+- [Replicate](https://replicate.com/) – Machine Learning as a Service
 - [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- [OpenAI](https://openai.com/) – Large Language Models
+- [Pinecone](https://www.pinecone.io/) – Search as a Service
 
 Full tech stack [here](/techstack.md)
 
@@ -19,11 +19,11 @@ Full tech stack [here](/techstack.md)
 ramzimalhas/NeumAI is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/21709/default_e8df7b9f7533c3ea041cf8ded59b2c12e7466b67.jpg' alt='Replicate'/> [Replicate](https://replicate.com/) – Machine Learning as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png' alt='FastAPI'/> [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
-- <img width='25' height='25' src='https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png' alt='Pinecone'/> [Pinecone](https://www.pinecone.io/) – Search as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg' alt='OpenAI'/> [OpenAI](https://openai.com/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/21709/default_e8df7b9f7533c3ea041cf8ded59b2c12e7466b67.jpg' alt='Replicate'/> [Replicate](https://replicate.com/) – Machine Learning as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg' alt='OpenAI'/> [OpenAI](https://openai.com/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png' alt='Pinecone'/> [Pinecone](https://www.pinecone.io/) – Search as a Service
 
 Full tech stack [here](/techstack.md)
 
@@ -34,7 +34,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ramzimalhas/NeumAI](https://github.com/ramzimalhas/NeumAI)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|19<br/>Tools used|01/23/24 <br/>Report generated|
+|19<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -137,14 +137,14 @@ Full tech stack [here](/techstack.md)
 |[azure-storage-blob](https://pypi.org/project/azure-storage-blob)|v12.19.0|11/14/23|ddematheu |MIT|N/A|
 |[beautifulsoup4](https://pypi.org/project/beautifulsoup4)|v4.12.2|11/14/23|ddematheu |MIT|N/A|
 |[boto3](https://pypi.org/project/boto3)|v1.28.81|11/14/23|ddematheu |Apache-2.0|N/A|
-|[langchain](https://pypi.org/project/langchain)|v0.0.335|11/15/23|kevinco26 |N/A|N/A|
+|[langchain](https://pypi.org/project/langchain)|v0.0.335|11/15/23|kevinco26 |N/A|[CVE-2024-0243](https://github.com/advisories/GHSA-h9j7-5xvc-qhg5) (Low)|
 |[openai](https://pypi.org/project/openai)|v1.2.4|11/15/23|kevinco26 |N/A|N/A|
 |[pandas](https://pypi.org/project/pandas)|v2.1.0|09/14/23|David de Matheu |BSD-3-Clause|N/A|
 |[pydantic](https://pypi.org/project/pydantic)|v1.10.13|11/20/23|kevinco26 |MIT|N/A|
 |[requests](https://pypi.org/project/requests)|v2.31.0|11/14/23|ddematheu |Apache-2.0|N/A|
 |[scikit-learn](https://pypi.org/project/scikit-learn)|v1.2.2|11/14/23|ddematheu |BSD-3-Clause|N/A|
 |[scipy](https://pypi.org/project/scipy)|v1.10.1|11/14/23|ddematheu |BSD-3-Clause|N/A|
-|[starlette](https://pypi.org/project/starlette)|v0.27.0|11/14/23|ddematheu |BSD-3-Clause|N/A|
+|[starlette](https://pypi.org/project/starlette)|v0.27.0|11/14/23|ddematheu |BSD-3-Clause|[CVE-2024-24762](https://github.com/advisories/GHSA-2jv5-9r88-3w3p) (High)<br/>[](https://github.com/advisories/GHSA-93gm-qmq6-w238) (High)|
 
 <br/>
 <div align='center'>
