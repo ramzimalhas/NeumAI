@@ -2,7 +2,7 @@ repo_name: ramzimalhas/NeumAI
 report_id: 7593ee488107c9087abcdc0b9f97d041
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-23T07:00:58+00:00'
+timestamp: '2024-02-29T19:32:17+00:00'
 requested_by: ddematheu
 provider: github
 branch: main
@@ -164,6 +164,13 @@ tools:
   detection_source: neumai-tools/pyproject.toml
   last_updated_by: kevinco26
   last_updated_on: 2023-11-15 00:31:16.000000000 Z
+  vulnerabilities:
+  - name: langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2024-0243
+    cve_url: https://github.com/advisories/GHSA-h9j7-5xvc-qhg5
+    detected_date: Feb 27
+    severity: low
+    first_patched: 0.1.0
 - name: openai
   description: The official Python library for the openai API
   package_url: https://pypi.org/project/openai
@@ -261,3 +268,16 @@ tools:
   detection_source: neumai/pyproject.toml
   last_updated_by: ddematheu
   last_updated_on: 2023-11-14 06:27:38.000000000 Z
+  vulnerabilities:
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.36.2
+  - name: 'Duplicate Advisory: Starlette Content-Type Header ReDoS'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-93gm-qmq6-w238
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.36.2
